@@ -1,0 +1,38 @@
+.img-background {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -350px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.bottom-border {
+    border-bottom: 8px solid #222;
+}
+
+.background-black {
+    background-color: black;
+}
+
+.headline {
+    font-size: 4rem;
+}
+
+@media (max-width: 1199.98px) {
+    .center-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .headline {
+        font-size: 3rem;
+    }
+}
